@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container p-3">
         <h2>
             Survey Questions
         </h2>
@@ -22,6 +22,8 @@
         <h4>Link to an Image of You (Required)</h4>
         <input type="text" id="surveyTakerPhoto" class="form-control" required>
         <hr>
+
+        <!-- Questions -->
         <h3>
             <strong>Question 1</strong>
         </h3>
@@ -33,7 +35,7 @@
             <option value="1">4</option>
             <option value="1">5 (Strongly Agree)</option>
         </select>
-        </h3>
+        <h3>
         <strong>Question 2</strong>
         </h3>
         <h4>People tell me that I'm beautiful.</h4>
@@ -132,6 +134,10 @@
             <option value="1">4</option>
             <option value="1">5 (Strongly Agree)</option>
         </select>
+        <hr>
+
+        <!-- Submit -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
